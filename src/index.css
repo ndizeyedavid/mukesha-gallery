@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: logoFont;
+  src: url("/header.otf");
+}
+
+html,
+body {
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+}
+.special {
+  background: linear-gradient(to right, #12c2e9, #fbd786, #f64f59);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 70px;
+}
+
+#logo {
+  /* color: red; */
+  font-family: logoFont;
+}
